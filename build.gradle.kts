@@ -1,5 +1,6 @@
 plugins {
     id("java")
+    application
 }
 
 group = "org.example"
@@ -14,6 +15,11 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
+application {
+    mainClass = "org.example.Main"
+}
+
 tasks.test {
     useJUnitPlatform()
 }
+

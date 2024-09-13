@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbf6d2ae-684a-4761-99f3-8628ee056681" name="Changes" comment="fixed gradle.yml">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fizzbuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/formula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quadratic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/reverseLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="fbf6d2ae-684a-4761-99f3-8628ee056681" name="Changes" comment="add all files for tasks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fizzbuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/fizzbuzz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726149098701</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add all files for tasks">
+      <option name="closed" value="true" />
+      <created>1726218490539</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726218490539</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +182,7 @@
     <MESSAGE value="create project" />
     <MESSAGE value="yml add" />
     <MESSAGE value="fixed gradle.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed gradle.yml" />
+    <MESSAGE value="add all files for tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add all files for tasks" />
   </component>
 </project>

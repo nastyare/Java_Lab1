@@ -1,7 +1,8 @@
 package org.example;
 
-public class reverseLines {
+public class palindrome {
     public static void main(String[] args) {
 
     }
 }
+

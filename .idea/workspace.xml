@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbf6d2ae-684a-4761-99f3-8628ee056681" name="Changes" comment="add all files for tasks">
+    <list default="true" id="fbf6d2ae-684a-4761-99f3-8628ee056681" name="Changes" comment="add fizzbuzz code and test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/formulaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/palindromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/quadraticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/reverseLinesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fizzbuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/fizzbuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/formula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/formula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quadratic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quadratic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/reverseLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/reverseLines.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +24,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,8 +70,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.fizzbuzz.executor": "Run",
+    "Application.formula.executor": "Run",
+    "Application.palindrome.executor": "Run",
+    "Application.quadratic.executor": "Run",
+    "Application.reverseLines.executor": "Run",
     "Gradle.Build Java_Lab1.executor": "Run",
     "Gradle.MainTest.inc.executor": "Run",
+    "Gradle.fizzTest.testFizz.executor": "Run",
+    "Gradle.formulaTest.executor": "Run",
+    "Gradle.palindromeTest.executor": "Run",
+    "Gradle.quadraticTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -76,7 +102,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.reverseLines">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -85,7 +111,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.inc" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.palindrome" />
+      <module name="Java_Lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="quadratic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.quadratic" />
+      <module name="Java_Lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverseLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.reverseLines" />
+      <module name="Java_Lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="palindromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -98,7 +169,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.MainTest.inc&quot;" />
+            <option value="&quot;org.example.palindromeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="quadraticTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.quadraticTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -111,7 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MainTest.inc" />
+        <item itemvalue="Application.reverseLines" />
+        <item itemvalue="Gradle.quadraticTest" />
+        <item itemvalue="Application.quadratic" />
+        <item itemvalue="Application.palindrome" />
+        <item itemvalue="Gradle.palindromeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +263,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726218490539</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add mains and rename palindrome file">
+      <option name="closed" value="true" />
+      <created>1726219923737</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726219923737</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add fizzbuzz code and test">
+      <option name="closed" value="true" />
+      <created>1726731271492</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726731271492</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +298,8 @@
     <MESSAGE value="yml add" />
     <MESSAGE value="fixed gradle.yml" />
     <MESSAGE value="add all files for tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="add all files for tasks" />
+    <MESSAGE value="add mains and rename palindrome file" />
+    <MESSAGE value="add fizzbuzz code and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fizzbuzz code and test" />
   </component>
 </project>

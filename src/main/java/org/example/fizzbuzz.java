@@ -1,33 +1,23 @@
 package org.example;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class fizzbuzz {
     public static void main(String[] args) {
-        int n = 500;
-        List<String> result = sequence(n);
-        System.out.println(result);
-    }
-
-    public static List<String> sequence(int n) {
-        if (n <= 0)
-            return null;
-
-        List<String> sequence = new ArrayList<>();
-
-        for (int i = 1; i <= n; i++) {
-            if (i % 5 == 0) {
-                if (i % 7 == 0)
-                    sequence.add("fizzbuzz");
-                else
-                    sequence.add("fizz");
-            } else if (i % 7 == 0) {
-                sequence.add("buzz");
-            } else
-                sequence.add(String.valueOf(i));
+        for (int number = 1; number <= 500; number++) {
+            System.out.println(fizzBuzz(number));
         }
-
-        return sequence;
     }
+
+    public static String fizzBuzz(int number) {
+        if (number % 5 == 0 && number % 7 == 0) {
+            return "fizzbuzz";
+        } else if (number % 5 == 0) {
+            return "fizz";
+        } else if (number % 7 == 0) {
+            return "buzz";
+        } else {
+            return String.valueOf(number);
+        }
+    }
+
 }

@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbf6d2ae-684a-4761-99f3-8628ee056681" name="Changes" comment="add fizzbuzz code and test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/formulaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/palindromeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/quadraticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/reverseLinesTest.java" afterDir="false" />
+    <list default="true" id="fbf6d2ae-684a-4761-99f3-8628ee056681" name="Changes" comment="add all remaining files and tests for them">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/formula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/formula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quadratic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quadratic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/reverseLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/reverseLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/quadraticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/quadraticTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +75,7 @@
     "Gradle.formulaTest.executor": "Run",
     "Gradle.palindromeTest.executor": "Run",
     "Gradle.quadraticTest.executor": "Run",
+    "Gradle.quadraticTest.testTwoRealRoots.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -102,7 +97,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.reverseLines">
+  <component name="RunManager" selected="Application.quadratic">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -156,30 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="palindromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.palindromeTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="quadraticTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -204,13 +175,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="quadraticTest.testTwoRealRoots" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.quadraticTest.testTwoRealRoots&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.quadratic" />
+        <item itemvalue="Gradle.quadraticTest.testTwoRealRoots" />
         <item itemvalue="Application.reverseLines" />
         <item itemvalue="Gradle.quadraticTest" />
-        <item itemvalue="Application.quadratic" />
         <item itemvalue="Application.palindrome" />
-        <item itemvalue="Gradle.palindromeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726731271492</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add all remaining files and tests for them">
+      <option name="closed" value="true" />
+      <created>1726737386004</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726737386004</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,6 +303,7 @@
     <MESSAGE value="add all files for tasks" />
     <MESSAGE value="add mains and rename palindrome file" />
     <MESSAGE value="add fizzbuzz code and test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fizzbuzz code and test" />
+    <MESSAGE value="add all remaining files and tests for them" />
+    <option name="LAST_COMMIT_MESSAGE" value="add all remaining files and tests for them" />
   </component>
 </project>
